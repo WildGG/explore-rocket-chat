@@ -237,13 +237,32 @@ sudo service rocketchat start
 Cara menjalankan Rocket.Chat cukup sederhana, kita tinggal menjalankan ubuntu server yang telah terinstall oleh Rocket.Chat, selanjutnya buka browser dan masuk ke localhost:8888.
 
 - Tampilan aplikasi web
+
   Fitur login dan daftar baru
   <img src="etc/gambar1.png" style="max-width:100%;">
   
   Daftarkan akun baru apabila belum punya akun rocket.chat
   <img src="etc/gambar2.png" style="max-width:100%;">
   
+  Masukkan nama pengguna yang akan ditampilkan sebagai username
+  <img src="etc/gambar3.png" style="max-width:100%;">
+  
+  tampilan halaman utama/beranda rocket.chat
+  <img src="etc/gambar4.png" style="max-width:100%;">
+  
 - Fungsi-fungsi utama
+  
+  1. Membuat grup & channel
+  
+  <img src="etc/gambar5.png" style="max-width:100%;">
+  
+  Membuat grup di Rocket.Chat dapat dilakukan dengan meng-klik tanda “+” yang berada disebelah kolom search. untuk tampilan lebih jelasnya dapat dilihat pada gambar 5 diatas.
+ 
+  <img src="etc/gambar6.png" style="max-width:100%;">
+  
+  Selanjutnya kita bisa memilih ingin membuat grup atau channel dengan cara meng-klik button private channel. jika kita ingin membuat grup (private channel) maka kita pilih button tersebut menjadi warna hijau, seperti pada gambar 6 diatas. Selanjutnya jika kita ingin membuat channel (public channel) maka kita klik button tersebut sehingga warna nya berubah menjadi warna merah, seperti gambar 7 dibawah ini.
+
+  
 - Isi dengan data real/dummy (jangan kosongan) dan sertakan beberapa screenshot
 
 # Pembahasan
