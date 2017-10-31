@@ -297,5 +297,7 @@ Aplikasi Chat Service lain yang banyak digunakan saat ini adalah Slack. Salah sa
 
 
 # Referensi
-1. <a id="1"></a>[https://docs.rocket.chat/](https://docs.rocket.chat/) Rocket.Chat Documentation - Rocket.Chat
-2. <a id="2"></a>[https://www.digitalocean.com/community/tutorials/how-to-...](https://www.digitalocean.com/community/tutorials/how-to-install-configure-and-deploy-rocket-chat-on-ubuntu-14-04) How To Install, Configure, and Deploy Rocket.Chat on Ubuntu 14.04 - DigitalOcean
+1. <a href="https://docs.rocket.chat/](https://docs.rocket.chat/">Rocket.Chat Documentation - Rocket.Chat</a> 
+2. <a href="https://www.digitalocean.com/community/tutorials/how-to-install-configure-and-deploy-rocket-chat-on-ubuntu-14-04">How To Install, Configure, and Deploy Rocket.Chat on Ubuntu 14.04 - DigitalOcean</a>
+3. <a href="https://obviate.io/2015/09/25/why-slack-when-you-can-rocket-chat/">Rocket.Chat Review</a>
+4. <a href="https://www.slant.co/versus/4553/10600/~slack_vs_rocket-chat">User base vote on Compariton Rocket.Chat and Slack</a>
