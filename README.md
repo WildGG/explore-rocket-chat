@@ -237,10 +237,7 @@ sudo service rocketchat start
 Cara menjalankan Rocket.Chat cukup sederhana, kita tinggal menjalankan ubuntu server yang telah terinstall oleh Rocket.Chat, selanjutnya buka browser dan masuk ke localhost:8888.
 
 - Tampilan aplikasi web
-  <div style="text-align:center">
-    <img src="etc/gambar1.png" alt="The Pulpit Rock" width="600" height="600">
-    <figcaption><b>Gambar 1. fitur login dan daftar baru.<b></figcaption>
-  </div>
+  <div align="center"><a href="https://rocket.chat/"><img src="etc/gambar1" style="max-width:100%;"></a></div>
     
   <figure>
      <img src="etc/gambar1.png" alt="The Pulpit Rock" width="100%" height="100%">
