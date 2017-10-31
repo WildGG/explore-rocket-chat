@@ -250,7 +250,7 @@ Cara menjalankan Rocket.Chat cukup sederhana, kita tinggal menjalankan ubuntu se
   tampilan halaman utama/beranda rocket.chat
   <img src="etc/gambar4.png" style="max-width:100%;">
   
-- Fungsi-fungsi utama
+- Fungsi-fungsi utama 
   
   1. Membuat grup & channel
   
