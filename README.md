@@ -238,7 +238,7 @@ Cara menjalankan Rocket.Chat cukup sederhana, kita tinggal menjalankan ubuntu se
 
 - Tampilan aplikasi web
 
-![LiveChat - Rocket](etc/gambar1.png)
+<img src="etc/gambar1.png" width="100" height="100">
 - Fungsi-fungsi utama
 - Isi dengan data real/dummy (jangan kosongan) dan sertakan beberapa screenshot
 
