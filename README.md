@@ -238,10 +238,8 @@ Cara menjalankan Rocket.Chat cukup sederhana, kita tinggal menjalankan ubuntu se
 
 - Tampilan aplikasi web
   <div style="text-align:center">
-  <figure width="100%">
     <img src="etc/gambar1.png" alt="The Pulpit Rock" width="600" height="600">
     <figcaption><b>Gambar 1. fitur login dan daftar baru.<b></figcaption>
-  </figure>
   </div>
     
   <figure>
