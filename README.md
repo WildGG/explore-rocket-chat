@@ -238,13 +238,11 @@ Cara menjalankan Rocket.Chat cukup sederhana, kita tinggal menjalankan ubuntu se
 
 - Tampilan aplikasi web
   Fitur login dan daftar baru
-  <div align="center"><a href="https://rocket.chat/"><img src="etc/gambar1.png" style="max-width:100%;"></a></div>
+  <img src="etc/gambar1.png" style="max-width:100%;">
   
+  Daftarkan akun baru apabila belum punya akun rocket.chat
+  <img src="etc/gambar2.png" style="max-width:100%;">
   
-  <span display:block></span>
-  <div align="center"><a href="https://rocket.chat/"><img src="etc/gambar2.png" style="max-width:100%;"></a></div>
-  <div align="center"><a>Gambar2. Daftarkan akun baru apabila belum punya akun rocket.chat</a></div>  
-
 - Fungsi-fungsi utama
 - Isi dengan data real/dummy (jangan kosongan) dan sertakan beberapa screenshot
 
