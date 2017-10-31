@@ -4,6 +4,7 @@
 :---:|:---:|:---:|:---:|:---:|:---:|:---:
 
 # Sekilas Tentang
+[`^ kembali ke atas ^`](#)
 
 <div >Rocket.Chat adalah solusi obrolan chat berbasis open source. aplikasi ini dapat berjalan dengan desktop os, android, ios  atau dengan free trial cloud demo di web.
 
@@ -13,6 +14,8 @@ Rocket.chat telah dinobatkan sebagai top project di Rookies Open Source Black Du
 
 
 # Instalasi
+[`^ kembali ke atas ^`](#)
+
 Panduan ini dibangun dengan asumsi berikut:
 - Sistem operasi: Ubuntu Server 16.04
 - Layanan ssh berjalan.
@@ -108,6 +111,7 @@ Hal ini mengindikasikan bahwa layanan Rocket.Chat sudah berjalan pada port 3000 
 > ```
 
 # Konfigurasi
+[`^ kembali ke atas ^`](#)
 
 ## Penanganan SSL
 
@@ -216,6 +220,7 @@ https://localhost:4444/admin/Logs
 -->
 
 # Otomatisasi
+[`^ kembali ke atas ^`](#)
 
 ## Jalankan sebagai service
 
@@ -234,6 +239,8 @@ sudo service rocketchat start
 ```
 
 # Cara Pemakaian
+[`^ kembali ke atas ^`](#)
+
 Cara menjalankan Rocket.Chat cukup sederhana, kita tinggal menjalankan ubuntu server yang telah terinstall oleh Rocket.Chat, selanjutnya buka browser dan masuk ke localhost:8888.
 
 ###- Tampilan aplikasi web
@@ -270,6 +277,7 @@ Cara menjalankan Rocket.Chat cukup sederhana, kita tinggal menjalankan ubuntu se
 - Isi dengan data real/dummy (jangan kosongan) dan sertakan beberapa screenshot
 
 # Pembahasan
+[`^ kembali ke atas ^`](#)
 
 ### Kekurangan dan Kelebihan
 Rocket Chat merupakan Web Chat Server yang dikembangkan dalam <code>Javascript</code> dengan menggunakan <code>Meteor Fullstack Framework</code>. Rocket Chat dapat menjadi solusi yang bagus
@@ -297,6 +305,8 @@ Aplikasi Chat Service lain yang banyak digunakan saat ini adalah Slack. Salah sa
 
 
 # Referensi
+[`^ kembali ke atas ^`](#)
+
 1. <a href="https://docs.rocket.chat/](https://docs.rocket.chat/">Rocket.Chat Documentation - Rocket.Chat</a> 
 2. <a href="https://www.digitalocean.com/community/tutorials/how-to-install-configure-and-deploy-rocket-chat-on-ubuntu-14-04">How To Install, Configure, and Deploy Rocket.Chat on Ubuntu 14.04 - DigitalOcean</a>
 3. <a href="https://obviate.io/2015/09/25/why-slack-when-you-can-rocket-chat/">Rocket.Chat Review</a>
