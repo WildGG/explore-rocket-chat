@@ -236,7 +236,7 @@ sudo service rocketchat start
 # Cara Pemakaian
 Cara menjalankan Rocket.Chat cukup sederhana, kita tinggal menjalankan ubuntu server yang telah terinstall oleh Rocket.Chat, selanjutnya buka browser dan masuk ke localhost:8888.
 
-- Tampilan aplikasi web
+###- Tampilan aplikasi web
 
   Fitur login dan daftar baru
   
@@ -254,9 +254,9 @@ Cara menjalankan Rocket.Chat cukup sederhana, kita tinggal menjalankan ubuntu se
   
   <img src="etc/gambar4.png" style="max-width:100%;">
   
-- Fungsi-fungsi utama 
+###- Fungsi-fungsi utama 
   
-  1. Membuat grup & channel
+  1. Membuat grup & channel**
   
   <img src="etc/gambar5.png" style="max-width:100%;">
   
