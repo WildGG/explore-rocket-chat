@@ -1,4 +1,4 @@
-<div align="center"><a href="https://rocket.chat/"><img src="https://www.stickermule.com/marketplace/embed_img/10009" style="max-width:100%;"></a></div>
+<p align="center"><a href="https://rocket.chat/"><img src="https://www.stickermule.com/marketplace/embed_img/10009" style="max-width:100%;"></a></p>
 
 [Sekilas Tentang](#sekilas-tentang) | [Instalasi](#instalasi) | [Konfigurasi](#konfigurasi) | [Otomatisasi](#otomatisasi) | [Cara Pemakaian](#cara-pemakaian) | [Pembahasan](#pembahasan) | [Referensi](#referensi)
 :---:|:---:|:---:|:---:|:---:|:---:|:---:
@@ -23,21 +23,14 @@ Panduan ini dibangun dengan asumsi berikut:
 
 ## Prasyarat 
 Ref: [[1]](#1)
-### VPS (minimal)
 
-- Single core (2 GHz)
-- 1 GB RAM
-- 30 GB SSD
-
-Ideal untuk penggunaan hingga 200 pengguna dengan 50 akses secara bersamaan. Aktivitas _upload_, _sharing_, dan _bot_ pada level minimum. 
-
-### VPS (recommended)
-
-- Dual core (2 GHz)
-- 2 GB RAM
-- 40 GB SSD
-
-Dapat mengakomodir penggunaan hingga 500 pengguna dengan 100 akses secara bersamaan. Aktivitas _upload_, _sharing_, dan _bot_ pada level wajar.
+| VPS (minimal)       | VPS (recommended) |
+| ------------------- | ----------------- |
+| Single core (2 GHz) | Dual core (2 GHz) |
+| 1 GB RAM            | 2 GB RAM          |
+| 30 GB SSD           | 40 GB SSD         |
+|                     |                   |
+| Ideal untuk penggunaan hingga 200 pengguna dengan 50 akses secara bersamaan. Aktivitas _upload_, _sharing_, dan _bot_ pada level minimum.              | Dapat mengakomodir penggunaan hingga 500 pengguna dengan 100 akses secara bersamaan. Aktivitas _upload_, _sharing_, dan _bot_ pada level wajar.    |
 
 ## Instalasi Cepat dengan Snaps (Disarankan)
 ```bash
@@ -185,20 +178,19 @@ server {
 
 OAuth merupakan metode autentikasi meggunakan akun aplikasi lain. Rocket.Chat mendukung beberapa OAuth seperti GitHub, Facebook, Google. Fitur ini dapat dikonfigurasi pada Menu **[Administration > OAuth](https://localhost:4444/admin/OAuth)**.
 
-![Form OAuth - Rocket](etc/oauth-form.png)
-
-**Client Id** dan **Client Secret** Github dapat diperoleh dari menu [**Settings > Developer settings > OAuth Apps**](https://github.com/settings/developers).
-
-![OAuth - Github](etc/oauth-github.png)
-
-Tombol login dengan akun OAuth akan muncul pada halaman login.
-
-![Form Login OAuth - Rocket](etc/oauth-login.png)
-<!--
-## Layout
-
-https://localhost:4444/admin/Layout
--->
+<p align="center">
+  <img name="Form OAuth" src="etc/oauth-form.png" width="600"><br/><br/>
+  <b>Client Id</b> dan <b>Client Secret</b> Github dapat diperoleh dari menu <b><a href="https://github.com/settings/developers">Settings > Developer settings > OAuth Apps</b></a>.
+</p>
+<br/><br/>
+<p align="center">
+  <img name="OAuth - Github" src="etc/oauth-github.png" width="600"><br/><br/>
+</p>
+<br/><br/>
+<p align="center">
+  Tombol login dengan akun OAuth akan muncul pada halaman login. <br/><br/>
+  <img name="Form Login OAuth - Rocke" src="etc/oauth-login.png" width="600"><br/><br/>
+</p>
 
 ## Livechat
 
@@ -245,33 +237,39 @@ Cara menjalankan Rocket.Chat cukup sederhana, kita tinggal menjalankan ubuntu se
 
 ###- Tampilan aplikasi web
 
-  Fitur login dan daftar baru
-  
-  <img src="etc/gambar1.png" style="max-width:100%;">
-  
-  Daftarkan akun baru apabila belum punya akun rocket.chat
-  
-  <img src="etc/gambar2.png" style="max-width:100%;">
-  
-  Masukkan nama pengguna yang akan ditampilkan sebagai username
-  
-  <img src="etc/gambar3.png" style="max-width:100%;">
-  
-  tampilan halaman utama/beranda rocket.chat
-  
-  <img src="etc/gambar4.png" style="max-width:100%;">
+  <p align="center">
+    Fitur login dan daftar baru <br/><br/>
+    <img src="etc/gambar1.png" width="600">
+  </p>
+  <br/><br/>
+  <p align="center">
+    Daftarkan akun baru apabila belum punya akun rocket.chat <br/><br/>
+    <img src="etc/gambar2.png" width="600">
+  </p>
+  <br/><br/>
+  <p align="center">
+    Masukkan nama pengguna yang akan ditampilkan sebagai username <br/><br/>
+    <img src="etc/gambar3.png" width="600">
+  </p>
+  <br/><br/>
+  <p align="center">
+    tampilan halaman utama/beranda rocket.chat <br/><br/>
+    <img src="etc/gambar4.png" width="600">
+  </p>
   
 ###- Fungsi-fungsi utama 
   
   1. Membuat grup & channel**
   
-  <img src="etc/gambar5.png" style="max-width:100%;">
-  
   Membuat grup di Rocket.Chat dapat dilakukan dengan meng-klik tanda “+” yang berada disebelah kolom search. untuk tampilan lebih jelasnya dapat dilihat pada gambar 5 diatas.
- 
-  <img src="etc/gambar6.png" style="max-width:100%;">
-  
+  <p align="center">
+    <img src="etc/gambar5.png" width="600">
+  </p>
+  <br/>
   Selanjutnya kita bisa memilih ingin membuat grup atau channel dengan cara meng-klik button private channel. jika kita ingin membuat grup (private channel) maka kita pilih button tersebut menjadi warna hijau, seperti pada gambar 6 diatas. Selanjutnya jika kita ingin membuat channel (public channel) maka kita klik button tersebut sehingga warna nya berubah menjadi warna merah, seperti gambar 7 dibawah ini.
+  <p align="center">
+    <img src="etc/gambar6.png" width="600">
+  </p>
 
   
 - Isi dengan data real/dummy (jangan kosongan) dan sertakan beberapa screenshot
@@ -307,7 +305,7 @@ Aplikasi Chat Service lain yang banyak digunakan saat ini adalah Slack. Salah sa
 # Referensi
 [`^ kembali ke atas ^`](#)
 
-1. <a id="1" href="https://docs.rocket.chat/](https://docs.rocket.chat/">Rocket.Chat Documentation - Rocket.Chat</a> 
+1. <a id="1" href="https://docs.rocket.chat">Rocket.Chat Documentation - Rocket.Chat</a> 
 2. <a id="2" href="https://www.digitalocean.com/community/tutorials/how-to-install-configure-and-deploy-rocket-chat-on-ubuntu-14-04">How To Install, Configure, and Deploy Rocket.Chat on Ubuntu 14.04 - DigitalOcean</a>
-3. <a id="3" href="https://obviate.io/2015/09/25/why-slack-when-you-can-rocket-chat/">Rocket.Chat Review</a>
+3. <a id="3" href="https://obviate.io/2015/09/25/why-slack-when-you-can-rocket-chat">Rocket.Chat Review</a>
 4. <a id="4" href="https://www.slant.co/versus/4553/10600/~slack_vs_rocket-chat">User base vote on Compariton Rocket.Chat and Slack</a>
