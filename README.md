@@ -196,15 +196,21 @@ OAuth merupakan metode autentikasi meggunakan akun aplikasi lain. Rocket.Chat me
 
 Fitur Livechat memungkinkan layanan chat diakses dari halaman web.
 
-![LiveChat - Rocket](etc/livechat-demo.png)
+<p align="center">
+  <img name="LiveChat - Rocket" src="etc/livechat-demo.png" width="600"><br/><br/>
+</p>
 
 Fitur ini dapat diaktifkan dari menu [**Administration > Livechat**](https://localhost:4444/admin/Livechat). Setelah mengaktifkan fitur ini, menu **Livechat Manager** akan ditampilkan pada _side-menu_ untuk mengakomodir pengelolaan Livechat lanjutan di antaranya pengaturan role user pada LiveChat dan departemen.
 
-![LiveChat - Rocket](etc/livechat-menu.png)
+<p align="center">
+  <img name="LiveChat - Rocket" src="etc/livechat-menu.png"><br/><br/>
+</p>
 
 Pada menu [**Livechat Manager > Installaltion**](https://localhost:4444/livechat-manager/installation) diberikan script untuk diletakkan pada halaman web.
 
-![LiveChat - Rocket](etc/livechat-installation.png)
+<p align="center">
+  <img name="LiveChat - Rocket" src="etc/livechat-installation.png" width="600"><br/><br/>
+</p>
 
 <!--#  Maintenance
 
@@ -241,17 +247,14 @@ Cara menjalankan Rocket.Chat cukup sederhana, kita tinggal menjalankan ubuntu se
     Fitur login dan daftar baru <br/><br/>
     <img src="etc/gambar1.png" width="600">
   </p>
-  <br/><br/>
   <p align="center">
     Daftarkan akun baru apabila belum punya akun rocket.chat <br/><br/>
     <img src="etc/gambar2.png" width="600">
   </p>
-  <br/><br/>
   <p align="center">
     Masukkan nama pengguna yang akan ditampilkan sebagai username <br/><br/>
     <img src="etc/gambar3.png" width="600">
   </p>
-  <br/><br/>
   <p align="center">
     tampilan halaman utama/beranda rocket.chat <br/><br/>
     <img src="etc/gambar4.png" width="600">
@@ -266,7 +269,7 @@ Cara menjalankan Rocket.Chat cukup sederhana, kita tinggal menjalankan ubuntu se
     <img src="etc/gambar5.png" width="600">
   </p>
   <br/>
-  Selanjutnya kita bisa memilih ingin membuat grup atau channel dengan cara meng-klik button private channel. jika kita ingin membuat grup (private channel) maka kita pilih button tersebut menjadi warna hijau, seperti pada gambar 6 diatas. Selanjutnya jika kita ingin membuat channel (public channel) maka kita klik button tersebut sehingga warna nya berubah menjadi warna merah, seperti gambar 7 dibawah ini.
+  Selanjutnya kita bisa memilih ingin membuat grup atau channel dengan cara meng-klik button private channel. jika kita ingin membuat grup (private channel) maka kita pilih button tersebut menjadi warna hijau, seperti pada gambar 6 diatas. Selanjutnya jika kita ingin membuat channel (public channel) maka kita klik button tersebut sehingga warna nya berubah menjadi warna merah, seperti gambar 7 dibawah ini. <br/>
   <p align="center">
     <img src="etc/gambar6.png" width="600">
   </p>
