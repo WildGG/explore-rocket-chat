@@ -194,9 +194,8 @@ OAuth merupakan metode autentikasi meggunakan akun aplikasi lain. Rocket.Chat me
 
 ## Livechat
 
-Fitur Livechat memungkinkan layanan chat diakses dari halaman web.
-
 <p align="center">
+  Fitur Livechat memungkinkan layanan chat diakses dari halaman web. <br/><br/>
   <img name="LiveChat - Rocket" src="etc/livechat-demo.png" width="600"><br/><br/>
 </p>
 
@@ -206,7 +205,7 @@ Fitur ini dapat diaktifkan dari menu [**Administration > Livechat**](https://loc
   <img name="LiveChat - Rocket" src="etc/livechat-menu.png"><br/><br/>
 </p>
 
-Pada menu [**Livechat Manager > Installaltion**](https://localhost:4444/livechat-manager/installation) diberikan script untuk diletakkan pada halaman web.
+Pada menu <b><a href="https://localhost:4444/livechat-manager/installation">Livechat Manager > Installaltion</a></b> diberikan script untuk diletakkan pada halaman web.
 
 <p align="center">
   <img name="LiveChat - Rocket" src="etc/livechat-installation.png" width="600"><br/><br/>
@@ -241,35 +240,39 @@ sudo service rocketchat start
 
 Cara menjalankan Rocket.Chat cukup sederhana, kita tinggal menjalankan ubuntu server yang telah terinstall oleh Rocket.Chat, selanjutnya buka browser dan masuk ke localhost:8888.
 
-###- Tampilan aplikasi web
+## Tampilan aplikasi web
 
   <p align="center">
     Fitur login dan daftar baru <br/><br/>
     <img src="etc/gambar1.png" width="600">
   </p>
+  <br/>
   <p align="center">
     Daftarkan akun baru apabila belum punya akun rocket.chat <br/><br/>
     <img src="etc/gambar2.png" width="600">
   </p>
+  <br/>
   <p align="center">
     Masukkan nama pengguna yang akan ditampilkan sebagai username <br/><br/>
     <img src="etc/gambar3.png" width="600">
   </p>
+  <br/>
   <p align="center">
-    tampilan halaman utama/beranda rocket.chat <br/><br/>
+    Tampilan halaman utama/beranda rocket.chat <br/><br/>
     <img src="etc/gambar4.png" width="600">
   </p>
+  <br/>
   
-###- Fungsi-fungsi utama 
+## Fungsi-fungsi utama 
   
-  1. Membuat grup & channel**
+**1. Membuat grup & channel**
   
   Membuat grup di Rocket.Chat dapat dilakukan dengan meng-klik tanda “+” yang berada disebelah kolom search. untuk tampilan lebih jelasnya dapat dilihat pada gambar 5 diatas.
   <p align="center">
     <img src="etc/gambar5.png" width="600">
   </p>
   <br/>
-  Selanjutnya kita bisa memilih ingin membuat grup atau channel dengan cara meng-klik button private channel. jika kita ingin membuat grup (private channel) maka kita pilih button tersebut menjadi warna hijau, seperti pada gambar 6 diatas. Selanjutnya jika kita ingin membuat channel (public channel) maka kita klik button tersebut sehingga warna nya berubah menjadi warna merah, seperti gambar 7 dibawah ini. <br/>
+  Selanjutnya kita bisa memilih ingin membuat grup atau channel dengan cara meng-klik button private channel. jika kita ingin membuat grup (private channel) maka kita pilih button tersebut menjadi warna hijau, seperti pada gambar 6 diatas. Selanjutnya jika kita ingin membuat channel (public channel) maka kita klik button tersebut sehingga warna nya berubah menjadi warna merah, seperti gambar 7 dibawah ini. <br/><br/>
   <p align="center">
     <img src="etc/gambar6.png" width="600">
   </p>
@@ -280,7 +283,7 @@ Cara menjalankan Rocket.Chat cukup sederhana, kita tinggal menjalankan ubuntu se
 # Pembahasan
 [`^ kembali ke atas ^`](#)
 
-### Kekurangan dan Kelebihan
+## Kekurangan dan Kelebihan
 Rocket Chat merupakan Web Chat Server yang dikembangkan dalam <code>Javascript</code> dengan menggunakan <code>Meteor Fullstack Framework</code>. Rocket Chat dapat menjadi solusi yang bagus
 untuk komunitas atau perusahaan yang menginginkan chat service mereka dihosting secara private. Sebagai aplikasi chat open source alternatif dari slack, Rocket Chat memiliki kelebihan sebagai berikut [[3]](#3):
 
@@ -295,7 +298,7 @@ Disamping memiliki banyak kelebihan, Rocket Chat memiliki beberapa kekurangan ya
 - Versi cloud dari Rocket Chat masih belum free
 - Karena versi gratis dari Rocket Chat harus dihosting secara private, pengguna harus memahami tata cara instalasi Rocket Chat dan tata cara maintenance-nya.
 
-### Perbandingan Rocket Chat dan Slack
+## Perbandingan Rocket Chat dan Slack
 Aplikasi Chat Service lain yang banyak digunakan saat ini adalah Slack. Salah satu sebab Slack mejadi aplikasi chat favorit karena mudah diintegrasikan dengan banyak tools, akan tetapi Slack sangat terbatas terutama dalam versi gratisnya dan versi berbayarnya sangat mahal. Berikut ini beberapa perbandingan antara Slack dan Rocket Chat [[3]](#4):
 
 - Aplikasi Rocket Chat dapat di jalankan pada private hosting dan tersedia pula versi cloud-nya walaupun tidak gratis, sedangkan slack tidak dapat dijalankan pada private hosting melaikan hanya tersedia versi cloud-nya saja.
