@@ -179,24 +179,24 @@ server {
 OAuth merupakan metode autentikasi meggunakan akun aplikasi lain. Rocket.Chat mendukung beberapa OAuth seperti GitHub, Facebook, Google. Fitur ini dapat dikonfigurasi pada Menu **[Administration > OAuth](https://localhost:4444/admin/OAuth)**.
 
 <p align="center">
-  <img name="Form OAuth" src="etc/oauth-form.png" width="600"><br/><br/>
-  <b>Client Id</b> dan <b>Client Secret</b> Github dapat diperoleh dari menu <b><a href="https://github.com/settings/developers">Settings > Developer settings > OAuth Apps</b></a>.
+  <b>Client Id</b> dan <b>Client Secret</b> Github dapat diperoleh dari menu <b><a href="https://github.com/settings/developers">Settings > Developer settings > OAuth Apps</b></a>.<br/><br/>
+  <img name="Form OAuth" src="etc/oauth-form.png" width="600">
 </p>
 <br/><br/>
 <p align="center">
-  <img name="OAuth - Github" src="etc/oauth-github.png" width="600"><br/><br/>
+  <img name="OAuth - Github" src="etc/oauth-github.png" width="600">
 </p>
 <br/>
 <p align="center">
-  Tombol login dengan akun OAuth akan muncul pada halaman login. <br/><br/>
-  <img name="Form Login OAuth - Rocke" src="etc/oauth-login.png" width="600"><br/><br/>
+  Tombol login dengan akun OAuth akan muncul pada halaman login. <br/>
+  <img name="Form Login OAuth - Rocke" src="etc/oauth-login.png" width="600">
 </p>
 
 ## Livechat
 
 <p align="center">
   Fitur Livechat memungkinkan layanan chat diakses dari halaman web. <br/><br/>
-  <img name="LiveChat - Rocket" src="etc/livechat-demo.png" width="800"><br/><br/>
+  <img name="LiveChat - Rocket" src="etc/livechat-demo.png" width="900"><br/><br/>
 </p>
 
 Fitur ini dapat diaktifkan dari menu [**Administration > Livechat**](https://localhost:4444/admin/Livechat). Setelah mengaktifkan fitur ini, menu **Livechat Manager** akan ditampilkan pada _side-menu_ untuk mengakomodir pengelolaan Livechat lanjutan di antaranya pengaturan role user pada LiveChat dan departemen.
