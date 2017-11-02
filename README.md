@@ -196,7 +196,7 @@ OAuth merupakan metode autentikasi meggunakan akun aplikasi lain. Rocket.Chat me
 
 <p align="center">
   Fitur Livechat memungkinkan layanan chat diakses dari halaman web. <br/><br/>
-  <img name="LiveChat - Rocket" src="etc/livechat-demo.png" width="600"><br/><br/>
+  <img name="LiveChat - Rocket" src="etc/livechat-demo.png" width="800"><br/><br/>
 </p>
 
 Fitur ini dapat diaktifkan dari menu [**Administration > Livechat**](https://localhost:4444/admin/Livechat). Setelah mengaktifkan fitur ini, menu **Livechat Manager** akan ditampilkan pada _side-menu_ untuk mengakomodir pengelolaan Livechat lanjutan di antaranya pengaturan role user pada LiveChat dan departemen.
@@ -259,7 +259,7 @@ Cara menjalankan Rocket.Chat cukup sederhana, kita tinggal menjalankan ubuntu se
   <br/>
   <p align="center">
     Tampilan halaman utama/beranda rocket.chat <br/><br/>
-    <img src="etc/gambar4.png" width="600">
+    <img src="etc/gambar4.png" width="900">
   </p>
   <br/>
   
@@ -269,12 +269,12 @@ Cara menjalankan Rocket.Chat cukup sederhana, kita tinggal menjalankan ubuntu se
   
   Membuat grup di Rocket.Chat dapat dilakukan dengan meng-klik tanda “+” yang berada disebelah kolom search. untuk tampilan lebih jelasnya dapat dilihat pada gambar 5 diatas.
   <p align="center">
-    <img src="etc/gambar5.png" width="600">
+    <img src="etc/gambar5.png" width="900">
   </p>
   <br/>
   Selanjutnya kita bisa memilih ingin membuat grup atau channel dengan cara meng-klik button private channel. jika kita ingin membuat grup (private channel) maka kita pilih button tersebut menjadi warna hijau, seperti pada gambar 6 diatas. Selanjutnya jika kita ingin membuat channel (public channel) maka kita klik button tersebut sehingga warna nya berubah menjadi warna merah, seperti gambar 7 dibawah ini. <br/><br/>
   <p align="center">
-    <img src="etc/gambar6.png" width="600">
+    <img src="etc/gambar6.png" width="900">
   </p>
 
   
