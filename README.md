@@ -188,7 +188,7 @@ OAuth merupakan metode autentikasi meggunakan akun aplikasi lain. Rocket.Chat me
 </p>
 <br/>
 <p align="center">
-  Tombol login dengan akun OAuth akan muncul pada halaman login. <br/>
+  Tombol login dengan akun OAuth akan muncul pada halaman login. <br/><br/>
   <img name="Form Login OAuth - Rocke" src="etc/oauth-login.png" width="600">
 </p>
 
@@ -205,9 +205,8 @@ Fitur ini dapat diaktifkan dari menu [**Administration > Livechat**](https://loc
   <img name="LiveChat - Rocket" src="etc/livechat-menu.png"><br/><br/>
 </p>
 
-Pada menu <b><a href="https://localhost:4444/livechat-manager/installation">Livechat Manager > Installaltion</a></b> diberikan script untuk diletakkan pada halaman web.
-
 <p align="center">
+  Pada menu <b><a href="https://localhost:4444/livechat-manager/installation">Livechat Manager > Installaltion</a></b> diberikan script untuk diletakkan pada halaman web. <br/>
   <img name="LiveChat - Rocket" src="etc/livechat-installation.png" width="600"><br/><br/>
 </p>
 
@@ -271,17 +270,17 @@ Cara menjalankan Rocket.Chat cukup sederhana, kita tinggal menjalankan ubuntu se
     <img src="etc/gambar5.png" width="900">
   </p>
   <br/>
-  Selanjutnya kita bisa memilih untuk membuat grup atau channel dengan cara meng-klik button private channel. jika kita ingin membuat grup (private channel) maka kita pilih button tersebut menjadi warna hijau. Selanjutnya jika kita ingin membuat channel (public channel) maka kita klik button tersebut sehingga warna nya berubah menjadi warna merah. <br/>
+  Selanjutnya kita bisa memilih untuk membuat grup atau channel dengan cara meng-klik button private channel. jika kita ingin membuat grup (private channel) maka kita pilih button tersebut menjadi warna hijau. Selanjutnya jika kita ingin membuat channel (public channel) maka kita klik button tersebut sehingga warna nya berubah menjadi warna merah. <br/><br/>
   <p align="center">
     <img src="etc/gambar6.png" width="900">
   </p>
   <br/>
-  Selanjutnya setelah grup/channel berhasil dibuat, maka akan muncul tampilan seperti di bawah ini. Kita juga dapat melakukan mention ke user lain dengan cara ketik (@username). <br/>
+  Selanjutnya setelah grup/channel berhasil dibuat, maka akan muncul tampilan seperti di bawah ini. Kita juga dapat melakukan mention ke user lain dengan cara ketik (@username). <br/><br/>
   <p align="center">
     <img src="etc/gambar8.png" width="900">
   </p>
   <br/>
-  Selanjutnya untuk melakukan mention ke semua user yang ada digrup, langsung saja ketikan (@all) dikolom chat seperti pada gambar di bawah. <br/>
+  Selanjutnya untuk melakukan mention ke semua user yang ada digrup, langsung saja ketikan (@all) dikolom chat seperti pada gambar di bawah. <br/><br/>
   <p align="center">
     <img src="etc/gambar9.png" width="900">
   </p>
