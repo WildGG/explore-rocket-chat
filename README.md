@@ -186,7 +186,7 @@ OAuth merupakan metode autentikasi meggunakan akun aplikasi lain. Rocket.Chat me
 <p align="center">
   <img name="OAuth - Github" src="etc/oauth-github.png" width="600"><br/><br/>
 </p>
-<br/><br/>
+<br/>
 <p align="center">
   Tombol login dengan akun OAuth akan muncul pada halaman login. <br/><br/>
   <img name="Form Login OAuth - Rocke" src="etc/oauth-login.png" width="600"><br/><br/>
