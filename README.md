@@ -6,7 +6,7 @@
 # Sekilas Tentang
 [`^ kembali ke atas ^`](#)
 
-<div >Rocket.Chat adalah solusi obrolan chat berbasis open source. aplikasi ini dapat berjalan dengan desktop os, android, ios  atau dengan free trial cloud demo di web.
+<div >Rocket.Chat adalah solusi obrolan chat berbasis open source. Aplikasi ini dapat berjalan dengan desktop os, android, ios  atau dengan free trial cloud demo di web.
 
 Rocket.chat merupakan sebuah perusahaan yang menciptakan aplikasi berbasis web dengan nama persis seperti nama perusahaannya yaitu Rocket.chat, yang berdasarkan nilai  open source dan kecintaan akan efisiensi. Perusahaan tersebut didukung oleh beberapa komunitas kontributor dari berbagai belahan dunia yang luar biasa, dengan anggota tim yang berbakat, yang bekerja tanpa lelah untuk menjaga agar kode tetap menjadi standar yang tinggi dan membuat hidup kontributor menjadi lebih mudah, yang dipimpin oleh  Gabriel Engel sebagai CEO nya.
 
@@ -39,7 +39,7 @@ Ref: [[1]](#1)
 
 Setelah instalasi selesai, aplikasi langsung aktif pada port 3000 http dan dapat di akses melalui _url_ [http://localhost:3000](http://localhost:3000)
 
-## Instalasi secara Manual
+## Instalasi Secara Manual
 
 Dependensi:
 - Node.js (versi 4.5.0 atau lebih)
@@ -123,7 +123,7 @@ sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 \
      -out /etc/nginx/ssl/nginx.crt
 ```
 
-### Konfigurasi Nginx untuk penanganan SSL
+### Konfigurasi Nginx Untuk Penanganan SSL
 
 Sesuaikan file konfigurasi /etc/nginx/sites-enabled/default
 
@@ -219,7 +219,7 @@ https://localhost:4444/admin/Logs
 # Otomatisasi
 [`^ kembali ke atas ^`](#)
 
-## Jalankan sebagai service
+## Jalankan Sebagai Service
 
 Ref: [[2]](#2)
 
@@ -240,7 +240,7 @@ sudo service rocketchat start
 
 Cara menjalankan Rocket.Chat cukup sederhana, kita tinggal menjalankan ubuntu server yang telah terinstall oleh Rocket.Chat, selanjutnya buka browser dan masuk ke localhost:8888.
 
-## Tampilan aplikasi web
+## Tampilan Aplikasi Web
 
   <p align="center">
     Fitur login dan daftar baru <br/><br/>
@@ -261,24 +261,30 @@ Cara menjalankan Rocket.Chat cukup sederhana, kita tinggal menjalankan ubuntu se
     Tampilan halaman utama/beranda rocket.chat <br/><br/>
     <img src="etc/gambar4.png" width="900">
   </p>
-  <br/>
   
-## Fungsi-fungsi utama 
+## Fitur-Fitur Utama 
   
 **1. Membuat grup & channel**
   
-  Membuat grup di Rocket.Chat dapat dilakukan dengan meng-klik tanda “+” yang berada disebelah kolom search. untuk tampilan lebih jelasnya dapat dilihat pada gambar 5 diatas.
+  Membuat grup di Rocket.Chat dapat dilakukan dengan meng-klik tanda “+” yang berada disebelah kolom search. untuk tampilan lebih jelasnya dapat dilihat pada gambar di bawah ini.
   <p align="center">
     <img src="etc/gambar5.png" width="900">
   </p>
   <br/>
-  Selanjutnya kita bisa memilih ingin membuat grup atau channel dengan cara meng-klik button private channel. jika kita ingin membuat grup (private channel) maka kita pilih button tersebut menjadi warna hijau, seperti pada gambar 6 diatas. Selanjutnya jika kita ingin membuat channel (public channel) maka kita klik button tersebut sehingga warna nya berubah menjadi warna merah, seperti gambar 7 dibawah ini. <br/><br/>
+  Selanjutnya kita bisa memilih untuk membuat grup atau channel dengan cara meng-klik button private channel. jika kita ingin membuat grup (private channel) maka kita pilih button tersebut menjadi warna hijau. Selanjutnya jika kita ingin membuat channel (public channel) maka kita klik button tersebut sehingga warna nya berubah menjadi warna merah. <br/>
   <p align="center">
     <img src="etc/gambar6.png" width="900">
   </p>
-
-  
-- Isi dengan data real/dummy (jangan kosongan) dan sertakan beberapa screenshot
+  <br/>
+  Selanjutnya setelah grup/channel berhasil dibuat, maka akan muncul tampilan seperti di bawah ini. Kita juga dapat melakukan mention ke user lain dengan cara ketik (@username). <br/>
+  <p align="center">
+    <img src="etc/gambar8.png" width="900">
+  </p>
+  <br/>
+  Selanjutnya untuk melakukan mention ke semua user yang ada digrup, langsung saja ketikan (@all) dikolom chat seperti pada gambar di bawah. <br/>
+  <p align="center">
+    <img src="etc/gambar9.png" width="900">
+  </p>
 
 # Pembahasan
 [`^ kembali ke atas ^`](#)
@@ -305,7 +311,6 @@ Aplikasi Chat Service lain yang banyak digunakan saat ini adalah Slack. Salah sa
 - Methode autentikasi yang disediakan Rocket Chat lebih banyak dibandingkan dengan Slack.
 - Slack lebih mudah di integrasikan dengan berbagai macam tools seperti github, trello dan lain sebagainya. Berbeda dengan Rocket Chat, pengguna perlu melakukan setup sendiri untuk mengintegrasikan Rocket Chat dengan aplikasi atau tools lain.
 - Slack memiliki fungsi search yang powerfull, pengguna dapat melakukan pencarian medalam terhadap file, potongan kode program (snippet), bahkan slack dapat melakukan pecarian data pada service yang diintegrasikan dengannya, sedangkan Rocket Chat hanya menyediakan fungsi search trivial seperti kebanyakan aplikasi chat lainnya.
-
 
 
 # Referensi
