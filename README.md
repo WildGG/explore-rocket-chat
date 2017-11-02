@@ -270,17 +270,20 @@ Cara menjalankan Rocket.Chat cukup sederhana, kita tinggal menjalankan ubuntu se
     <img src="etc/gambar5.png" width="900">
   </p>
   <br/>
-  Selanjutnya kita bisa memilih untuk membuat grup atau channel dengan cara meng-klik button private channel. jika kita ingin membuat grup (private channel) maka kita pilih button tersebut menjadi warna hijau. Selanjutnya jika kita ingin membuat channel (public channel) maka kita klik button tersebut sehingga warna nya berubah menjadi warna merah. <br/><br/>
+  Selanjutnya kita bisa memilih untuk membuat grup atau channel dengan cara meng-klik button private channel. jika kita ingin membuat grup (private channel) maka kita pilih button tersebut menjadi warna hijau. Selanjutnya jika kita ingin membuat channel (public channel) maka kita klik button tersebut sehingga warna nya berubah menjadi warna merah.
+  
   <p align="center">
     <img src="etc/gambar6.png" width="900">
   </p>
   <br/>
-  Selanjutnya setelah grup/channel berhasil dibuat, maka akan muncul tampilan seperti di bawah ini. Kita juga dapat melakukan mention ke user lain dengan cara ketik (@username). <br/><br/>
+  Selanjutnya setelah grup/channel berhasil dibuat, maka akan muncul tampilan seperti di bawah ini. Kita juga dapat melakukan mention ke user lain dengan cara ketik (@username).
+  
   <p align="center">
     <img src="etc/gambar8.png" width="900">
   </p>
   <br/>
-  Selanjutnya untuk melakukan mention ke semua user yang ada digrup, langsung saja ketikan (@all) dikolom chat seperti pada gambar di bawah. <br/><br/>
+  Selanjutnya untuk melakukan mention ke semua user yang ada digrup, langsung saja ketikan (@all) dikolom chat seperti pada gambar di bawah.
+  
   <p align="center">
     <img src="etc/gambar9.png" width="900">
   </p>
