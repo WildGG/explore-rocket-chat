@@ -1,10 +1,10 @@
-<p align="center"><a href="https://rocket.chat/"><img src="https://www.stickermule.com/marketplace/embed_img/10009" style="max-width:100%;"></a></p>
+<p id="home" align="center"><a href="https://rocket.chat/"><img src="https://www.stickermule.com/marketplace/embed_img/10009" style="max-width:100%;"></a></p>
 
 [Sekilas Tentang](#sekilas-tentang) | [Instalasi](#instalasi) | [Konfigurasi](#konfigurasi) | [Otomatisasi](#otomatisasi) | [Cara Pemakaian](#cara-pemakaian) | [Pembahasan](#pembahasan) | [Referensi](#referensi)
 :---:|:---:|:---:|:---:|:---:|:---:|:---:
 
 # Sekilas Tentang
-[`^ kembali ke atas ^`](#)
+[`^ kembali ke atas ^`](#home)
 
 <div >Rocket.Chat adalah solusi obrolan chat berbasis open source. Aplikasi ini dapat berjalan dengan desktop os, android, ios  atau dengan free trial cloud demo di web.
 
@@ -14,23 +14,22 @@ Rocket.chat telah dinobatkan sebagai top project di Rookies Open Source Black Du
 
 
 # Instalasi
-[`^ kembali ke atas ^`](#)
+[`^ kembali ke atas ^`](#home)
 
 Panduan ini dibangun dengan asumsi berikut:
 - Sistem operasi: Ubuntu Server 16.04
 - Layanan ssh berjalan.
-- Layanan Rocket.Chat akan dijalankan pada port 3000
+- Layanan Rocket.Chat akan dijalankan pada `localhost`
 
 ## Prasyarat 
 Ref: [[1]](#1)
 
-| VPS (minimal)       | VPS (recommended) |
-| ------------------- | ----------------- |
-| Single core (2 GHz) | Dual core (2 GHz) |
-| 1 GB RAM            | 2 GB RAM          |
-| 30 GB SSD           | 40 GB SSD         |
-|                     |                   |
-| Ideal untuk penggunaan hingga 200 pengguna dengan 50 akses secara bersamaan. Aktivitas _upload_, _sharing_, dan _bot_ pada level minimum.              | Dapat mengakomodir penggunaan hingga 500 pengguna dengan 100 akses secara bersamaan. Aktivitas _upload_, _sharing_, dan _bot_ pada level wajar.    |
+|Spesifikasi   | VPS (minimal)         | VPS (recommended)    |
+|---            |---                    |---|
+|_Processor_   |Single core (2 GHz)   |Dual Core (2GHz)   |
+|_Memory_      |1 GB RAM              |2 GB RAM|
+|Penyimpanan     |30 GB SSD             |40 GB SSD|
+|Kapasitas    |<ul><li>Ideal untuk penggunaan hingga 200 pengguna dengan 50 akses secara bersamaan.</li><li>Aktivitas _upload_, _sharing_, dan _bot_ pada level minimum.</li></ul>|<ul><li>Dapat mengakomodir penggunaan hingga 500 pengguna dengan 100 akses secara bersamaan.</li><li>Aktivitas _upload_, _sharing_, dan _bot_ pada level wajar.</li></ul>|
 
 ## Instalasi Cepat dengan Snaps (Disarankan)
 ```bash
@@ -104,7 +103,7 @@ Hal ini mengindikasikan bahwa layanan Rocket.Chat sudah berjalan pada port 3000 
 > ```
 
 # Konfigurasi
-[`^ kembali ke atas ^`](#)
+[`^ kembali ke atas ^`](#home)
 
 ## Penanganan SSL
 
@@ -174,49 +173,8 @@ server {
 
 > Dengan konfigurasi ini, server sudah memiliki dua layanan web server nginx pada port 443 https dan rocketchat pada port 3000. Konfigurasi dapat berfungsi apabila kedua layanan ini berjalan. Karenanya sebelum mengakses _url_ [https://localhost](https://localhost), terlebih dahulu jalankan layanan rocketchat. node ~/Rocket.Chat/main.js
 
-## OAuth
-
-OAuth merupakan metode autentikasi meggunakan akun aplikasi lain. Rocket.Chat mendukung beberapa OAuth seperti GitHub, Facebook, Google. Fitur ini dapat dikonfigurasi pada Menu **[Administration > OAuth](https://localhost:4444/admin/OAuth)**.
-
-<p align="center">
-  <b>Client Id</b> dan <b>Client Secret</b> Github dapat diperoleh dari menu <b><a href="https://github.com/settings/developers">Settings > Developer settings > OAuth Apps</b></a>.<br/><br/>
-  <img name="Form OAuth" src="etc/oauth-form.png" width="600">
-</p>
-<br/><br/>
-<p align="center">
-  <img name="OAuth - Github" src="etc/oauth-github.png" width="600">
-</p>
-<br/>
-<p align="center">
-  Tombol login dengan akun OAuth akan muncul pada halaman login. <br/><br/>
-  <img name="Form Login OAuth - Rocke" src="etc/oauth-login.png" width="600">
-</p>
-
-## Livechat
-
-<p align="center">
-  Fitur Livechat memungkinkan layanan chat diakses dari halaman web. <br/><br/>
-  <img name="LiveChat - Rocket" src="etc/livechat-demo.png" width="900"><br/><br/>
-</p>
-
-Fitur ini dapat diaktifkan dari menu [**Administration > Livechat**](https://localhost:4444/admin/Livechat). Setelah mengaktifkan fitur ini, menu **Livechat Manager** akan ditampilkan pada _side-menu_ untuk mengakomodir pengelolaan Livechat lanjutan di antaranya pengaturan role user pada LiveChat dan departemen.
-
-<p align="center">
-  <img name="LiveChat - Rocket" src="etc/livechat-menu.png"><br/><br/>
-</p>
-
-<p align="center">
-  Pada menu <b><a href="https://localhost:4444/livechat-manager/installation">Livechat Manager > Installaltion</a></b> diberikan script untuk diletakkan pada halaman web. <br/>
-  <img name="LiveChat - Rocket" src="etc/livechat-installation.png" width="600"><br/><br/>
-</p>
-
-<!--#  Maintenance
-
-https://localhost:4444/admin/Logs
--->
-
 # Otomatisasi
-[`^ kembali ke atas ^`](#)
+[`^ kembali ke atas ^`](#home)
 
 ## Jalankan Sebagai Service
 
@@ -235,58 +193,153 @@ sudo service rocketchat start
 ```
 
 # Cara Pemakaian
-[`^ kembali ke atas ^`](#)
+[`^ kembali ke atas ^`](#home)
 
 Cara menjalankan Rocket.Chat cukup sederhana, kita tinggal menjalankan ubuntu server yang telah terinstall oleh Rocket.Chat, selanjutnya buka browser dan masuk ke localhost:8888.
 
 ## Tampilan Aplikasi Web
 
+1. Jika belum memiliki akun Rocket.Chat, pengguna dapat mendaftarkan dirinya dengan mengklik link `Daftarkan akun baru`.
   <p align="center">
-    Fitur login dan daftar baru <br/><br/>
-    <img src="etc/gambar1.png" width="600">
+    <img src="etc/gambar1.png" width="300"/>
+    <img src="etc/gambar2.png" width="300"/>
   </p>
-  <br/>
+
+2. Masukkan nama pengguna yang akan ditampilkan sebagai `username`
   <p align="center">
-    Daftarkan akun baru apabila belum punya akun rocket.chat <br/><br/>
-    <img src="etc/gambar2.png" width="600">
+    <img src="etc/gambar3.png" width="400"/>
   </p>
-  <br/>
+
+3. Setelah registrasi / login berhasil, pengguna akan diarahkan ke halaman `Home`.
   <p align="center">
-    Masukkan nama pengguna yang akan ditampilkan sebagai username <br/><br/>
-    <img src="etc/gambar3.png" width="600">
-  </p>
-  <br/>
-  <p align="center">
-    Tampilan halaman utama/beranda rocket.chat <br/><br/>
-    <img src="etc/gambar4.png" width="900">
+    <img src="etc/gambar4.png" width="800"/>
   </p>
   
 ## Fitur-Fitur Utama 
   
-**1. Membuat grup & channel**
+### 1. Channel
+
+`Channel` dapat diilustrasikan seperti sebuah ruangan berisi beberapa pengguna. Pada implementasi aplikasi _chat_ yang lain fitur ini biasa disebut _Group_. Secara default, pengguna tergabung dalam `channel` **General**.
   
-  Membuat grup di Rocket.Chat dapat dilakukan dengan meng-klik tanda “+” yang berada disebelah kolom search. untuk tampilan lebih jelasnya dapat dilihat pada gambar di bawah ini.
+1. Membuat grup di Rocket.Chat dapat dilakukan dengan meng-klik tanda “+” yang berada disebelah kolom search. untuk tampilan lebih jelasnya dapat dilihat pada gambar di bawah ini.
+  
   <p align="center">
-    <img src="etc/gambar5.png" width="900">
-  </p>
-  <br/>
-  Selanjutnya kita bisa memilih untuk membuat grup atau channel dengan cara meng-klik button private channel. jika kita ingin membuat grup (private channel) maka kita pilih button tersebut menjadi warna hijau. Selanjutnya jika kita ingin membuat channel (public channel) maka kita klik button tersebut sehingga warna nya berubah menjadi warna merah. <br/><br/> 
-  <p align="center">
-    <img src="etc/gambar6.png" width="900">
-  </p>
-  <br/>
-  Selanjutnya setelah grup/channel berhasil dibuat, maka akan muncul tampilan seperti di bawah ini. Kita juga dapat melakukan mention ke user lain dengan cara ketik (@username). <br/><br/> 
-  <p align="center">
-    <img src="etc/gambar8.png" width="900">
-  </p>
-  <br/>
-  Selanjutnya untuk melakukan mention ke semua user yang ada digrup, langsung saja ketikan (@all) dikolom chat seperti pada gambar di bawah. <br/><br/> 
-  <p align="center">
-    <img src="etc/gambar9.png" width="900">
+    <img src="etc/gambar5.png" width="800"/>
   </p>
 
+2. Selanjutnya kita bisa memilih untuk membuat grup atau channel dengan cara meng-klik button private channel. jika kita ingin membuat grup (private channel) maka kita pilih button tersebut menjadi warna hijau. Selanjutnya jika kita ingin membuat channel (public channel) maka kita klik button tersebut sehingga warna nya berubah menjadi warna merah.
+
+  <p align="center">
+    <img src="etc/gambar6.png" width="800"/>
+  </p>
+
+3. Selanjutnya setelah grup/channel berhasil dibuat, maka akan muncul tampilan seperti di bawah ini. Kita juga dapat melakukan mention ke user lain dengan cara ketik (@username).
+
+  <p align="center">
+    <img src="etc/gambar8.png" width="800"/>
+  </p>
+
+4. Selanjutnya untuk melakukan mention ke semua user yang ada digrup, langsung saja ketikan (@all) dikolom chat seperti pada gambar di bawah.
+  
+  <p align="center">
+    <img src="etc/gambar9.png" width="800"/>
+  </p>
+
+### 2. ShortKey
+
+Beberapa tombol cepat _(ShortKey)_ yang dapat digunakan pada Rocket.Chat antara lain:
+
+|Shortcut key       |Keterangan|
+|---|---|
+|<kbd>Enter</kbd>   |Kirim pesan|
+|<kbd>Shift</kbd> + <kbd>Enter</kbd>|Baris baru|
+|`@<people>`      |mengirim notifikasi ke user tertentu|
+|`@all`             |mengirim notifikasi ke seluruh member dalam `channel`|
+|`@here`|mengirim notifikasi ke pengguna yang sedang aktif|
+|`#<channel>`|membuat link / tag `channel`|
+|`/create #<channel>`|Membuat `channel`|
+|`/archive #<channel>`|Mengarsipkan `channel`|
+|`/leave`           |Keluar dari `channel`|
+|`/invite @<people>`|Mengundang user untuk bergabung ke dalam `channel` aktif|
+|`/invite-all-from #<channel-x>`|Mengundang semua user dalam suatu `channel-x` untuk bergabung ke dalam `channel` aktif|
+|`/invite-all-to #<channel-x>`  |Mengundang semua user dalam `channel` aktif untuk bergabung ke `channel-x`|
+|`/join #<channel>` |Bergabung ke `channel`|
+|`/kick @people`    |Mengelouarkan seseorang dari `channel`|
+|`/help`|Memunculkan daftar tombol cepat (Shortcut)|
+
+### 3. Panel Pengaturan dan Pencarian
+
+<p align="center">
+  <img src="etc/panel.png" width="600" alt="Panel Pengaturan dan Pencarian" />
+</p>
+
+Pada sisi kanan ruang percakapan terdapat panel pengaturan dan pencarian.
+
+1. **Room Info:** Informasi dan pengaturan ruangan.
+Beberapa pengaturan yang dimungkinkan antara lain: nama ruangan, topik, deskripsi, _private / public_, _read only_, _archived_, dan _password_.
+2. **Search:** Penelusuran pesan. Regex dibungkinkan.
+3. **Members List:** Daftar anggota.
+4. **Notifications:** Pengaturan notifikasi
+5. **Files List:** Daftar file
+6. **Mentions:** Daftar _mention_
+7. **Starred Messages:** Daftar pesan yang ditandai (favorit)
+8. **Keyboard Shortcuts:** Daftar tombol cepat.
+9. **Pinned Messages:** Daftar pinned messages.
+
+### 4. Livechat
+
+Fitur Livechat memungkinkan layanan _chat_ diakses dari halaman web layaknya representasi _customer service_. Fitur ini dapat diaktifkan dari menu [**Administration > Livechat**](https://localhost/admin/Livechat).
+
+
+<p align="center">
+  <img name="LiveChat - Rocket" src="etc/livechat-demo.png" width="800"/>
+</p>
+
+1. Fitur `LiveChat` dapat diaktifkan dari menu [**Administration > Livechat**](https://localhost/admin/Livechat). Setelah mengaktifkan fitur ini, menu **Livechat Manager** akan ditampilkan pada _side-menu_ untuk mengakomodir pengelolaan Livechat lanjutan di antaranya pengaturan role user pada LiveChat dan departemen.
+
+<p align="center">
+  <img name="LiveChat - Rocket" src="etc/livechat-menu.png"/>
+</p>
+
+2. Pada menu <b><a href="https://localhost/livechat-manager/installation">Livechat Manager > Installaltion</a></b> diberikan script untuk diletakkan pada halaman web.
+
+<p align="center">
+  <img name="LiveChat - Rocket" src="etc/livechat-installation.png" width="600"/>
+</p>
+
+### 5. OAuth
+
+OAuth merupakan metode autentikasi meggunakan akun aplikasi lain. Rocket.Chat mendukung beberapa OAuth seperti GitHub, Facebook, Google. 
+
+1. Fitur `OAuth` dapat diaktifkan pada Menu **[Administration > OAuth](https://localhost/admin/OAuth)**.
+
+<p align="center">
+  <img name="Form OAuth" src="etc/oauth-form.png" width="500"/>
+</p>
+
+2. **Client Id** dan **Client Secret** Github dapat dibuat melalui halaman Github pada menu [**Settings > Developer settings > OAuth Apps**](https://github.com/settings/developers).
+
+<p align="center">
+  <img name="OAuth - Github" src="etc/oauth-github.png" width="600"/>
+</p>
+
+3. Setelah penyesuaian konfigurasi, tombol login menggunakan OAuth akan muncul pada halaman login.
+
+<p align="center">
+  <img name="Form Login OAuth - RocketChat" src="etc/oauth-login.png" width="400"/>
+</p>
+
+### 6.  Lihat Log
+
+Untuk keperluan pemeliharaan, log status layanan dapat diakses dari menu [**Administration > View Logs**](https://localhost/admin/view-logs).
+
+<p align="center">
+  <img name="Administrasi - Lihat Log" src="etc/logs.png" width="600"/>
+</p>
+
+
 # Pembahasan
-[`^ kembali ke atas ^`](#)
+[`^ kembali ke atas ^`](#home)
 
 ## Kekurangan dan Kelebihan
 Rocket Chat merupakan Web Chat Server yang dikembangkan dalam <code>Javascript</code> dengan menggunakan <code>Meteor Fullstack Framework</code>. Rocket Chat dapat menjadi solusi yang bagus
@@ -313,7 +366,7 @@ Aplikasi Chat Service lain yang banyak digunakan saat ini adalah Slack. Salah sa
 
 
 # Referensi
-[`^ kembali ke atas ^`](#)
+[`^ kembali ke atas ^`](#home)
 
 1. <a id="1" href="https://docs.rocket.chat">Rocket.Chat Documentation - Rocket.Chat</a> 
 2. <a id="2" href="https://www.digitalocean.com/community/tutorials/how-to-install-configure-and-deploy-rocket-chat-on-ubuntu-14-04">How To Install, Configure, and Deploy Rocket.Chat on Ubuntu 14.04 - DigitalOcean</a>
