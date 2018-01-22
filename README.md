@@ -1,4 +1,4 @@
-<p id="home" align="center"><a href="https://rocket.chat/"><img src="https://www.stickermule.com/marketplace/embed_img/10009" style="max-width:100%;"></a></p>
+<p id="home" align="center"><a href="https://rocket.chat/"><img src="etc/logo.svg" style="max-width:100%;"></a></p>
 
 [Sekilas Tentang](#sekilas-tentang) | [Instalasi](#instalasi) | [Konfigurasi](#konfigurasi) | [Otomatisasi](#otomatisasi) | [Cara Pemakaian](#cara-pemakaian) | [Pembahasan](#pembahasan) | [Referensi](#referensi)
 :---:|:---:|:---:|:---:|:---:|:---:|:---:
@@ -6,11 +6,11 @@
 # Sekilas Tentang
 [`^ kembali ke atas ^`](#home)
 
-<div >Rocket.Chat adalah solusi obrolan chat berbasis open source. Aplikasi ini dapat berjalan dengan desktop os, android, ios  atau dengan free trial cloud demo di web.
+Rocket.Chat adalah solusi obrolan chat berbasis _open source_. Aplikasi ini dapat berjalan dengan desktop OS, Android, iOS  atau dengan _free trial cloud demo_ di web.
 
-Rocket.chat merupakan sebuah perusahaan yang menciptakan aplikasi berbasis web dengan nama persis seperti nama perusahaannya yaitu Rocket.chat, yang berdasarkan nilai  open source dan kecintaan akan efisiensi. Perusahaan tersebut didukung oleh beberapa komunitas kontributor dari berbagai belahan dunia yang luar biasa, dengan anggota tim yang berbakat, yang bekerja tanpa lelah untuk menjaga agar kode tetap menjadi standar yang tinggi dan membuat hidup kontributor menjadi lebih mudah, yang dipimpin oleh  Gabriel Engel sebagai CEO nya.
+Rocket.chat merupakan sebuah perusahaan yang menciptakan aplikasi berbasis web dengan nama persis seperti nama perusahaannya yaitu Rocket.chat, yang berdasarkan nilai _open source_ dan kecintaan akan efisiensi. Perusahaan tersebut didukung oleh beberapa komunitas kontributor dari berbagai belahan dunia yang luar biasa, dengan anggota tim yang berbakat, yang bekerja tanpa lelah untuk menjaga agar kode tetap menjadi standar yang tinggi dan membuat hidup kontributor menjadi lebih mudah, yang dipimpin oleh Gabriel Engel sebagai CEO nya.
 
-Rocket.chat telah dinobatkan sebagai top project di Rookies Open Source Black Duck of the Year pada tahun 2016. Perusahaan tersebut berbasis di Brazil, namun sebagian besar tim bekerja dari jarak jauh. Pesaing utama dari Rocket.Chat adalah aplikasi seperti Slack dan HipChat.
+Rocket.chat telah dinobatkan sebagai _top project_ di _Rookies Open Source Black Duck of the Year_ pada tahun 2016. Perusahaan tersebut berbasis di Brazil, namun sebagian besar tim bekerja dari jarak jauh. Pesaing utama dari Rocket.Chat adalah aplikasi seperti Slack dan HipChat.
 
 
 # Instalasi
@@ -227,13 +227,13 @@ Cara menjalankan Rocket.Chat cukup sederhana, kita tinggal menjalankan ubuntu se
     <img src="etc/gambar5.png" width="800"/>
   </p>
 
-2. Selanjutnya kita bisa memilih untuk membuat grup atau channel dengan cara meng-klik button private channel. jika kita ingin membuat grup (private channel) maka kita pilih button tersebut menjadi warna hijau. Selanjutnya jika kita ingin membuat channel (public channel) maka kita klik button tersebut sehingga warna nya berubah menjadi warna merah.
+2. Selanjutnya kita bisa mengatur akses grup atau channel yang akan dibuat pada button _private channel_. Jika kita ingin membuat grup dengan akses privat _(private channel)_ maka kita pilih button tersebut menjadi warna hijau. Selanjutnya jika kita ingin membuat channel dengan akses publik _(public channel)_ maka kita klik button tersebut sehingga warnanya berubah menjadi warna merah.
 
   <p align="center">
     <img src="etc/gambar6.png" width="800"/>
   </p>
 
-3. Selanjutnya setelah grup/channel berhasil dibuat, maka akan muncul tampilan seperti di bawah ini. Kita juga dapat melakukan mention ke user lain dengan cara ketik (@username).
+3. Selanjutnya setelah grup/channel berhasil dibuat, maka akan muncul tampilan seperti di bawah ini. Kita juga dapat melakukan _mention_ ke user lain dengan cara ketik (@username).
 
   <p align="center">
     <img src="etc/gambar8.png" width="800"/>
@@ -264,7 +264,7 @@ Beberapa tombol cepat _(ShortKey)_ yang dapat digunakan pada Rocket.Chat antara 
 |`/invite-all-from #<channel-x>`|Mengundang semua user dalam suatu `channel-x` untuk bergabung ke dalam `channel` aktif|
 |`/invite-all-to #<channel-x>`  |Mengundang semua user dalam `channel` aktif untuk bergabung ke `channel-x`|
 |`/join #<channel>` |Bergabung ke `channel`|
-|`/kick @people`    |Mengelouarkan seseorang dari `channel`|
+|`/kick @people`    |Mengeluarkan seseorang dari `channel`|
 |`/help`|Memunculkan daftar tombol cepat (Shortcut)|
 
 ### 3. Panel Pengaturan dan Pencarian
@@ -342,27 +342,26 @@ Untuk keperluan pemeliharaan, log status layanan dapat diakses dari menu [**Admi
 [`^ kembali ke atas ^`](#home)
 
 ## Kekurangan dan Kelebihan
-Rocket Chat merupakan Web Chat Server yang dikembangkan dalam <code>Javascript</code> dengan menggunakan <code>Meteor Fullstack Framework</code>. Rocket Chat dapat menjadi solusi yang bagus
-untuk komunitas atau perusahaan yang menginginkan chat service mereka dihosting secara private. Sebagai aplikasi chat open source alternatif dari slack, Rocket Chat memiliki kelebihan sebagai berikut [[3]](#3):
+Rocket Chat merupakan Web Chat Server yang dikembangkan dalam <code>Javascript</code> dengan menggunakan <code>Meteor Fullstack Framework</code>. Rocket Chat dapat menjadi solusi yang bagus untuk komunitas atau perusahaan yang menginginkan chat service mereka dihosting secara _private_. Sebagai aplikasi chat _open source_ alternatif dari slack, Rocket Chat memiliki kelebihan sebagai berikut [[3]](#3):
 
-- Dapat dihosting pada private server, sehingga kemanan data chat service lebih terjamin dan dapat di kustomisasi sesuai kebutuhan.
-- Realtime translation. Rocket Chat menggunakan teknologi machine learning untuk melakukan automatic real time translation ketika user melakukan chat.
-- Multiplatform. Rocket Chat dapat digunakan di Android, IOS, web based dan desktop based.
-- Tersedianya banyak plugin, system integration, tema tampilan aplikasi dan powerful API.
-- Menyediakan banyak skema authentikasi, seperti LDAP Group Sync, two-factor authentication (2-FA), E2E encryption, SSO, dan mendukung banyak skema authentikasi OAuth.
-- Unlimited users, channels, searches, guests, messages danfiles.
+- Dapat dihosting pada private server, sehingga kemanan _data chat service_ lebih terjamin dan dapat di kustomisasi sesuai kebutuhan.
+- _Realtime translation_. Rocket Chat menggunakan teknologi _machine learning_ untuk melakukan _automatic real time translation_ ketika user melakukan chat.
+- _Multiplatform_. Rocket Chat dapat digunakan di Android, iOS, _web based_ dan _desktop based_.
+- Tersedianya banyak _plugin, system integration_, tema tampilan aplikasi, dan _powerful API_.
+- Menyediakan banyak skema authentikasi, seperti _LDAP Group Sync, two-factor authentication (2-FA), E2E encryption, SSO_, dan mendukung banyak skema authentikasi OAuth.
+- _Unlimited users, channels, searches, guests, messages_ dan _files_.
 
 Disamping memiliki banyak kelebihan, Rocket Chat memiliki beberapa kekurangan yang perlu dipertimbangkan antara lain:
-- Versi cloud dari Rocket Chat masih belum free
-- Karena versi gratis dari Rocket Chat harus dihosting secara private, pengguna harus memahami tata cara instalasi Rocket Chat dan tata cara maintenance-nya.
+- Versi cloud dari Rocket Chat masih belum _free_
+- Karena versi gratis dari Rocket Chat harus dihosting secara _private_, pengguna harus memahami tata cara instalasi Rocket Chat dan tata cara _maintenance_-nya.
 
 ## Perbandingan Rocket Chat dan Slack
-Aplikasi Chat Service lain yang banyak digunakan saat ini adalah Slack. Salah satu sebab Slack mejadi aplikasi chat favorit karena mudah diintegrasikan dengan banyak tools, akan tetapi Slack sangat terbatas terutama dalam versi gratisnya dan versi berbayarnya sangat mahal. Berikut ini beberapa perbandingan antara Slack dan Rocket Chat [[4]](#4):
+Aplikasi Chat Service lain yang banyak digunakan saat ini adalah Slack. Salah satu sebab Slack mejadi aplikasi chat favorit karena mudah diintegrasikan dengan banyak _tools_, akan tetapi Slack sangat terbatas terutama dalam versi gratisnya dan versi berbayarnya sangat mahal. Berikut ini beberapa perbandingan antara Slack dan Rocket Chat [[4]](#4):
 
-- Aplikasi Rocket Chat dapat di jalankan pada private hosting dan tersedia pula versi cloud-nya walaupun tidak gratis, sedangkan slack tidak dapat dijalankan pada private hosting melaikan hanya tersedia versi cloud-nya saja.
-- Methode autentikasi yang disediakan Rocket Chat lebih banyak dibandingkan dengan Slack.
-- Slack lebih mudah di integrasikan dengan berbagai macam tools seperti github, trello dan lain sebagainya. Berbeda dengan Rocket Chat, pengguna perlu melakukan setup sendiri untuk mengintegrasikan Rocket Chat dengan aplikasi atau tools lain.
-- Slack memiliki fungsi search yang powerfull, pengguna dapat melakukan pencarian medalam terhadap file, potongan kode program (snippet), bahkan slack dapat melakukan pecarian data pada service yang diintegrasikan dengannya, sedangkan Rocket Chat hanya menyediakan fungsi search trivial seperti kebanyakan aplikasi chat lainnya.
+- Aplikasi Rocket Chat dapat di jalankan pada _private hosting_ dan tersedia pula versi cloud-nya walaupun tidak gratis, sedangkan slack tidak dapat dijalankan pada _private hosting_ melaikan hanya tersedia versi cloud-nya saja.
+- Metode autentikasi yang disediakan Rocket Chat lebih banyak dibandingkan dengan Slack.
+- Slack lebih mudah di integrasikan dengan berbagai macam tools seperti Github, Trello, dan lain sebagainya. Berbeda dengan Rocket Chat, pengguna perlu melakukan setup sendiri untuk mengintegrasikan Rocket Chat dengan aplikasi atau _tools_ lain.
+- Slack memiliki fungsi _search_ yang _powerfull_, pengguna dapat melakukan pencarian medalam terhadap _file_, potongan kode program _(snippet)_, bahkan slack dapat melakukan pecarian data pada _service_ yang diintegrasikan dengannya, sedangkan Rocket Chat hanya menyediakan fungsi _search trivial_ seperti kebanyakan aplikasi chat lainnya.
 
 
 # Referensi
